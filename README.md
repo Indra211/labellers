@@ -22,8 +22,8 @@ This project is a file viewer application that dynamically loads and displays fi
 1. Clone the repository:
 
    ```bash
-   git clone <repo>
-   cd project
+   git clone https://github.com/Indra211/labellers.git
+   cd labellers
    ```
 
 2. Install dependencies

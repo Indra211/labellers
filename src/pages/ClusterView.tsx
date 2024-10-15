@@ -45,8 +45,10 @@ export const ClusterView = () => {
                       : [...prev, label]
                   )
                 }
-                className={`text-xs font-medium bg-slate-200 rounded-lg p-2 m-1 ${
-                  selectedLabel?.includes(label) ? "bg-red-400 text-white" : ""
+                className={`text-xs font-medium  rounded-lg p-2 m-1 ${
+                  selectedLabel?.length > 0 && selectedLabel?.includes(label)
+                    ? "bg-red-400 text-white"
+                    : "bg-slate-200"
                 }`}
               >
                 {CapitalizeWord(label)}
